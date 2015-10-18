@@ -95,6 +95,7 @@ my @PREV_COUNTRIES = qw/
     Philipines
     Spain-Tapas
     Russia
+    Koreas
 /;
 
 $| = 1;
