@@ -1,4 +1,4 @@
-#!/home/bfelton/perl/bin/perl
+#!/usr/bin/perl
 
 use strict;
 use warnings;
@@ -96,6 +96,11 @@ my @PREV_COUNTRIES = qw/
     Spain-Tapas
     Russia
     Koreas
+    France
+    Hawaii
+    Sushi
+    Belgium
+    SouthAfrica
 /;
 
 $| = 1;
@@ -176,7 +181,7 @@ sub main
     sleep 1;
     print "\n\nFinal Vote Counts\n=================\n";
     sleep 2;
-    print "$_ = $store{$_}\n" 
+    print "$_ = $store{$_}\n"
         for (sort {$store{$b} <=> $store{$a}} keys %store);
 
     return 0;
