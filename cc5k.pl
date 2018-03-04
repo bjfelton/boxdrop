@@ -101,6 +101,8 @@ my @PREV_COUNTRIES = qw/
     Sushi
     Belgium
     SouthAfrica
+    Spain-Portugal
+    Pakistan
 /;
 
 $| = 1;
