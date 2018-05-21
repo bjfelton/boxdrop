@@ -103,6 +103,8 @@ my @PREV_COUNTRIES = qw/
     SouthAfrica
     Spain-Portugal
     Pakistan
+    Poland
+    China-Dimsum
 /;
 
 $| = 1;
